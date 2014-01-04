@@ -1,0 +1,4 @@
+<?php
+$s_plugin_MantisSync_title = 'Import bugs';
+$s_plugin_MantisSync_description = 'Import bugs from a remote Mantis';
+

@@ -1,0 +1,43 @@
+<?php
+// plugin
+$s_plugin_MantisSync_title = 'Importer des annomalies';
+$s_plugin_MantisSync_description = 'Importation d\'anomalie depuis un Mantis distant';
+$s_plugin_MantisSync_remoteimport = 'Importation distante';
+$s_plugin_MantisSync_nosaop = 'L\'extension PHP_SOAP n\'est pas chargée';
+
+// connector
+$s_plugin_MantisSync_badurlmantis = 'L\'url ne correspond à aucun site ou Mantis n\'est pas présent à cet url';
+$s_plugin_MantisSync_badurl = 'L\'url donnée n\'est pas valide';
+$s_plugin_MantisSync_badconf = 'Le fichier de configuration n\'est pas valide';
+$s_plugin_MantisSync_connectionerror = 'Impossible de récupérer le résultat de la requête';
+$s_plugin_MantisSync_fieldlocal = ' : Le champ n\'existe pas dans le projet local';
+$s_plugin_MantisSync_saveconfiguration = 'La configuration n\'a pas été sauvegardée';
+$s_plugin_MantisSync_fieldremote = ' : Le champ n\'existe pas dans le projet distant';
+$s_plugin_MantisSync_fieldtype = 'Les champs et ne sont pas de même type';
+$s_plugin_MantisSync_baduserpassword = 'L\'identifiant et / ou le mot de passe n\'est pas valide';
+
+// import
+$s_plugin_MantisSync_confnull = 'Le fichier de configuration n\'est pas renseigné' ;
+$s_plugin_MantisSync_connectremote = 'Impossible de récupérer les anomalies distantes';
+$s_plugin_MantisSync_update = ' nouveaux bugs ont été ajoutés et %s  ont été mis à jours';
+$s_plugin_MantisSync_selectlocal = 'Selection du projet local correspondant' ;
+$s_plugin_MantisSync_selectremote = 'Selection du projet distant' ;
+$s_plugin_MantisSync_import = 'Import des données depuis un Mantis distant' ;
+$s_plugin_MantisSync_type = 'Type d\'import' ;
+$s_plugin_MantisSync_fichierrequired = '(Fichier de mapping requis)' ;
+$s_plugin_MantisSync_fichier = 'Fichier de mapping entre les champs' ;
+$s_plugin_MantisSync_format = 'Format du fichier de config' ;
+$s_plugin_MantisSync_descremote = 'Description des champs distants' ;
+$s_plugin_MantisSync_desclocal = 'Description des champs locaux' ;
+$s_plugin_MantisSync_nonelocal = 'Aucun projet local existant. Veuillez en créer un avant de commencer les imports' ;
+$s_plugin_MantisSync_noneremote = 'Aucun projet distant existant. Veuillez en créer un avant de commencer les imports' ;
+$s_plugin_MantisSync_noconfigallowed = 'Pas de mapping possible car pas de champs personnalisé dans le projet local' ;
+
+//config
+$s_plugin_MantisSync_required = 'Les champs obligatoires doivent être remplis';
+$s_plugin_MantisSync_saveconf = 'Configuration sauvegardée';
+$s_plugin_MantisSync_remoteconf = 'Configuration Mantis distante';
+$s_plugin_MantisSync_url = 'Adresse Mantis';
+$s_plugin_MantisSync_user = 'Utilisateur';
+$s_plugin_MantisSync_password = 'Mot de passe';
+$s_plugin_MantisSync_save = 'Sauvegarder';
